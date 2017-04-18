@@ -1,0 +1,11 @@
+#container {
+}
+
+#container #content {
+}
+
+#container #content::after {
+}
+
+.globalheader-off #container {
+}

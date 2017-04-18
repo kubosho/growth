@@ -1,0 +1,674 @@
+@charset "utf-8";
+
+/*!
+  Theme: Theme
+  Author: kubosho_
+  Description: 文章を読むことに集中できるテーマです
+  Responsive: yes
+ */
+
+/* About ページ */
+
+.page-about dt {
+}
+
+.page-about dd {
+  margin-left: 0;
+  margin-bottom: 30px;
+}
+
+/* archive ページ */
+
+.page-archive .archive-entries .archive-entry {
+  margin-bottom: 3em;
+}
+
+.page-archive .archive-entries .entry-title {
+  font-size: 130%;
+  margin: 0 0 .5em;
+}
+
+.page-archive .archive-entries .categories {
+  margin: 0 0 .5em;
+}
+
+.page-archive .archive-entries .entry-description {
+  margin: 0 0 1em;
+  line-height: 1.7em;
+  font-size: 95%;
+}
+
+.page-archive .categories a {
+  color: #fff;
+  font-size: 70%;
+  background: #aaa;
+  padding: 3px 5px;
+  border-radius: 3px;
+  text-decoration: none;
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  margin-right: 2px;
+}
+
+/* パンくず（カテゴリーページで表示されます） */
+
+#top-box {
+  margin: 10px auto 20px;
+  font-size: 90%;
+}
+
+#top-box .breadcrumb {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.btn {
+}
+
+.btn:hover {
+}
+
+.btn-small {
+}
+
+.btn-large {
+}
+
+/* カテゴリ */
+
+.categories {
+  margin-top: 10px;
+  font-size: 80%;
+}
+
+.categories a {
+  color: #999999;
+}
+
+.categories.no-categories {
+  margin: 0;
+}
+
+/* 2カラムレイアウト */
+
+#main {
+}
+
+#box2 {
+}
+
+/* 1カラムにしたい場合は下記のコメントアウトを外してください */
+
+#main {
+}
+
+#box2 {
+}
+
+#box2-inner {
+}
+
+.hatena-module {
+}
+
+.hatena-module:nth-child(3n+1) {
+}
+
+/* コメント */
+
+.comment-box ul {
+  list-style: none;
+  margin: 0 0 15px 0;
+  padding: 0;
+  font-size: 95%;
+  line-height: 1.7;
+}
+
+.comment-box li {
+  padding: 10px 0 10px 60px;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+}
+
+.comment-box li:first-child {
+  border-top: 1px solid #dddddd;
+}
+
+.comment-box .read-more-comments {
+  padding-left: 0;
+}
+
+.comment-box .hatena-id-icon {
+  position: absolute;
+  top: 10px;
+  left: 0;
+  width: 50px !important;
+  height: 50px !important;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-radius: 3px;
+  background-clip: padding-box;
+}
+
+.comment-user-name {
+  margin: 0 0 10px 0;
+  font-weight: bold;
+}
+
+.comment-content {
+  font-size: 90%;
+  margin: 0 0 10px 0;
+  word-wrap: break-word;
+}
+
+.comment-content p {
+  margin: 0 0 10px 0;
+}
+
+.comment-metadata {
+  font-size: 80%;
+  color: #999999;
+  margin: 0;
+}
+
+.comment-metadata a {
+  color: #999999;
+}
+
+.leave-comment-title {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  line-height: 18px;
+  color: #454545;
+  background-color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-radius: 2px;
+  background-clip: padding-box;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+.leave-comment-title:hover {
+  background-color: #f5f5f5;
+  text-decoration: none !important;
+}
+
+/* container */
+
+#container {
+  width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  padding-top: 37px;
+}
+
+#container #content {
+  display: block;
+  *zoom: 1;
+}
+
+#container #content:after {
+  display: block;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+
+.globalheader-off #container {
+  padding-top: 0;
+}
+
+/* 日付 */
+
+.date {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.date a {
+  color: #1487bd;
+  text-decoration: none;
+  font-size: 90%;
+}
+
+html,
+body {
+}
+
+a {
+}
+
+a:visited {
+}
+
+a:hover {
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+}
+
+a.keyword {
+}
+
+/* entry-content の中の書式 */
+
+.entry-content {
+  font-size: 95%;
+  line-height: 1.7;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #dddddd;
+}
+
+.entry-content p {
+  margin: 0 0 1em 0;
+}
+
+.entry-content img {
+  max-width: 100%;
+}
+
+.entry-content h1,
+.entry-content h2,
+.entry-content h3,
+.entry-content h4,
+.entry-content h5,
+.entry-content h6 {
+  margin: 1.3em 0 0.8em 0;
+  line-height: 1.5;
+}
+
+.entry-content h1 {
+  font-size: 160%;
+}
+
+.entry-content h2 {
+  font-size: 150%;
+}
+
+.entry-content h3 {
+  font-size: 140%;
+}
+
+.entry-content h4 {
+  font-size: 130%;
+}
+
+.entry-content h5 {
+  font-size: 110%;
+}
+
+.entry-content h6 {
+  font-size: 100%;
+}
+
+.entry-content table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin-bottom: 1em;
+}
+
+.entry-content table img {
+  max-width: none;
+}
+
+.entry-content table th,
+.entry-content table td {
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+}
+
+.entry-content table th {
+  background: #f5f5f5;
+}
+
+.entry-content blockquote {
+  border: 1px solid #dddddd;
+  margin: 0 0 10px;
+  padding: 20px;
+}
+
+.entry-content blockquote p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.entry-content pre {
+  border: 1px solid #dddddd;
+  margin: 0 0 10px;
+  padding: 20px;
+  white-space: pre;
+}
+
+.entry-content pre > code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: 0;
+  background: transparent;
+  font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+}
+
+.entry-content code {
+  font-size: 90%;
+  margin: 0 2px;
+  padding: 0 5px;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px;
+  font-family: 'Monaco', 'Consolas', 'Courier New', Courier, monospace, sans-serif;
+}
+
+.entry-content .hatena-asin-detail li {
+  line-height: 1.4;
+}
+
+/* entry-footer */
+
+.entry-footer {
+  margin-top: 10px;
+}
+
+.entry-footer-section {
+  font-size: 80%;
+  color: #999999;
+}
+
+.entry-footer-section a {
+  color: #999999;
+}
+
+.social-buttons,
+.entry-footer-html {
+  margin: 10px 0;
+}
+
+.entry-header {
+  padding: 0 0 10px 0;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #dddddd;
+  position: relative;
+}
+
+.entry-title {
+  margin: 0;
+  line-height: 1.3;
+  font-size: 160%;
+}
+
+/* 「編集する」ボタン */
+
+.entry-header-menu {
+  position: absolute;
+  bottom: 0px;
+  left: -60px;
+}
+
+.entry-header-menu a {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  padding: 4px 10px 4px;
+  margin-bottom: 0;
+  line-height: 18px;
+  color: #454545;
+  background-color: #ffffff;
+  text-align: center;
+  vertical-align: middle;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-radius: 2px;
+  background-clip: padding-box;
+  cursor: pointer;
+  font-size: 12px;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  text-decoration: none !important;
+}
+
+.entry-header-menu a:hover {
+  background-color: #f5f5f5;
+  text-decoration: none !important;
+}
+
+/* entry */
+
+.entry {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* ヘッダ（グローバルヘッダ）
+  グローバルヘッダの中はiframeですが、
+  #globalheader-container に背景色や文字色を指定することでiframeの中にも色が反映されます。
+*/
+
+#globalheader-container {
+  background-color: #333;
+  color: #fff;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* header */
+
+#blog-title {
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+#title {
+  margin: 0;
+}
+
+#title a {
+  color: #454545;
+}
+
+#blog-description {
+  font-weight: normal;
+  font-size: 80%;
+  margin: 5px 0 0 0;
+}
+
+/* ヘッダ画像を設定したとき */
+
+.header-image-enable #title {
+  padding-top: 70px;
+}
+
+.header-image-enable #title,
+.header-image-enable #blog-description {
+  padding-left: 20px;
+}
+
+/* sidebar */
+
+#box2 {
+  font-size: 85%;
+  line-height: 1.5;
+}
+
+.hatena-module {
+  margin-bottom: 60px;
+}
+
+.hatena-module-title {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 120%;
+}
+
+.hatena-module-title a {
+  color: #454545;
+  text-decoration: none;
+}
+
+.hatena-module-title a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+
+#footer {
+  padding: 30px 0;
+  text-align: center;
+  color: #999999;
+  line-height: 1.5;
+  font-size: 80%;
+}
+
+#footer p {
+  margin: 0;
+}
+
+#footer a {
+  color: #999999;
+}
+
+/* Profile module */
+
+.hatena-module-profile .profile-icon {
+  float: left;
+  margin: 0 10px 10px 0;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-radius: 5px;
+  background-clip: padding-box;
+}
+
+.hatena-module-profile .id {
+  display: block;
+  font-weight: bold;
+  font-size: 110%;
+  margin-bottom: 5px;
+}
+
+.hatena-module-profile .profile-description {
+  font-size: 90%;
+}
+
+.hatena-module-profile .profile-description p {
+  margin-top: 0;
+}
+
+/* urllist module
+    リンク・最新記事・最近のコメント・月別アーカイブ・カテゴリモジュールは .hatena-urllist という共通の class が振られます
+*/
+
+.hatena-urllist {
+  list-style: none;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+.hatena-urllist li {
+  padding: 8px 0;
+  border-bottom: 1px solid #dddddd;
+  line-height: 1.5;
+}
+
+.hatena-urllist li a {
+  text-decoration: none;
+}
+
+/* Search module */
+
+.hatena-module-search-box .search-form {
+  border: 1px solid #dddddd;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+  border-radius: 3px;
+  background-clip: padding-box;
+  width: 100%;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.hatena-module-search-box .search-module-input {
+  padding: 5px;
+  color: #454545;
+  background: none;
+  border: none;
+  outline: none;
+  height: 20px;
+  width: 90%;
+}
+
+.hatena-module-search-box .search-module-button {
+  width: 20px;
+  height: 20px;
+  background: transparent url(http://blog.hatena.ne.jp/images/theme/search.png) no-repeat right center;
+  border: none;
+  outline: none;
+  text-indent: -9999px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  opacity: 0.5;
+}
+
+.hatena-module-search-box .search-module-button:hover {
+  opacity: 0.85;
+}
+
+/* Pager */
+
+.pager {
+  margin: 1em 0;
+  display: block;
+  *zoom: 1;
+}
+
+.pager:after {
+  display: block;
+  visibility: hidden;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  content: ".";
+}
+
+.pager .pager-prev {
+  float: left;
+  text-align: left;
+  width: 45%;
+}
+
+.pager .pager-next {
+  float: right;
+  text-align: right;
+  width: 45%;
+}

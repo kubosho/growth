@@ -1,0 +1,41 @@
+/* ヘッダ（グローバルヘッダ）
+  グローバルヘッダの中はiframeですが、
+  #globalheader-container に背景色や文字色を指定することでiframeの中にも色が反映されます。
+*/
+#globalheader-container {
+}
+
+#blog-title {
+}
+#title {
+}
+#title a {
+}
+#blog-description {
+}
+/* ヘッダ画像を設定したとき */
+.header-image-enable #title {
+}
+.header-image-enable #title,
+.header-image-enable #blog-description {
+}
+
+/* sidebar */
+#box2 {
+}
+.hatena-module {
+}
+.hatena-module-title {
+}
+.hatena-module-title a {
+}
+.hatena-module-title a:hover {
+}
+
+/* Footer */
+#footer {
+}
+#footer p {
+}
+#footer a {
+}
