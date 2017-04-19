@@ -7,25 +7,85 @@
   Responsive: yes
  */
 
-.page-about dt {
+body {
+  color: #393939;
+  line-height: 1.5;
 }
 
-.page-about dd {
+a {
+  color: #0366d6;
 }
 
-.page-archive .archive-entries .archive-entry {
+a:visited {
 }
 
-.page-archive .archive-entries .entry-title {
+a:hover {
 }
 
-.page-archive .archive-entries .categories {
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
 }
 
-.page-archive .archive-entries .entry-description {
+#globalheader-container {
 }
 
-.page-archive .categories a {
+#blog-title {
+}
+
+#title {
+}
+
+#title a {
+}
+
+#blog-description {
+}
+
+.header-image-enable #title {
+}
+
+.header-image-enable #title,
+.header-image-enable #blog-description {
+}
+
+#box2 {
+}
+
+.hatena-module {
+}
+
+.hatena-module-title {
+}
+
+.hatena-module-title a {
+}
+
+.hatena-module-title a:hover {
+}
+
+#footer {
+}
+
+#footer p {
+}
+
+#footer a {
+}
+
+#container {
+}
+
+#container #content {
+}
+
+#container #content::after {
+}
+
+.globalheader-off #container {
 }
 
 #top-box {
@@ -112,46 +172,73 @@
 .leave-comment-title:hover {
 }
 
-#container {
-}
-
-#container #content {
-}
-
-#container #content::after {
-}
-
-.globalheader-off #container {
-}
-
 .date {
 }
 
 .date a {
 }
 
-html,
-body {
+.hatena-module-profile .profile-icon {
 }
 
-a {
+.hatena-module-profile .id {
 }
 
-a:visited {
+.hatena-module-profile .profile-description {
 }
 
-a:hover {
+.hatena-module-profile .profile-description p {
 }
 
-h1 a,
-h2 a,
-h3 a,
-h4 a,
-h5 a,
-h6 a {
+.hatena-urllist {
 }
 
-a.keyword {
+.hatena-urllist li {
+}
+
+.hatena-urllist li a {
+}
+
+.hatena-module-search-box .search-form {
+}
+
+.hatena-module-search-box .search-module-input {
+}
+
+.hatena-module-search-box .search-module-button {
+}
+
+.hatena-module-search-box .search-module-button:hover {
+}
+
+.pager {
+}
+
+.pager::after {
+}
+
+.pager .pager-prev {
+}
+
+.pager .pager-next {
+}
+
+.entry {
+}
+
+.entry-header {
+}
+
+.entry-title {
+}
+
+.entry-header-menu {
+}
+
+.entry-header-menu a {
+}
+
+.entry-header-menu a:hover {
 }
 
 .entry-content {
@@ -233,111 +320,23 @@ a.keyword {
 .entry-footer-html {
 }
 
-.entry-header {
+.page-about dt {
 }
 
-.entry-title {
+.page-about dd {
 }
 
-.entry-header-menu {
+.page-archive .archive-entries .archive-entry {
 }
 
-.entry-header-menu a {
+.page-archive .archive-entries .entry-title {
 }
 
-.entry-header-menu a:hover {
+.page-archive .archive-entries .categories {
 }
 
-.entry {
+.page-archive .archive-entries .entry-description {
 }
 
-#globalheader-container {
-}
-
-#blog-title {
-}
-
-#title {
-}
-
-#title a {
-}
-
-#blog-description {
-}
-
-.header-image-enable #title {
-}
-
-.header-image-enable #title,
-.header-image-enable #blog-description {
-}
-
-#box2 {
-}
-
-.hatena-module {
-}
-
-.hatena-module-title {
-}
-
-.hatena-module-title a {
-}
-
-.hatena-module-title a:hover {
-}
-
-#footer {
-}
-
-#footer p {
-}
-
-#footer a {
-}
-
-.hatena-module-profile .profile-icon {
-}
-
-.hatena-module-profile .id {
-}
-
-.hatena-module-profile .profile-description {
-}
-
-.hatena-module-profile .profile-description p {
-}
-
-.hatena-urllist {
-}
-
-.hatena-urllist li {
-}
-
-.hatena-urllist li a {
-}
-
-.hatena-module-search-box .search-form {
-}
-
-.hatena-module-search-box .search-module-input {
-}
-
-.hatena-module-search-box .search-module-button {
-}
-
-.hatena-module-search-box .search-module-button:hover {
-}
-
-.pager {
-}
-
-.pager::after {
-}
-
-.pager .pager-prev {
-}
-
-.pager .pager-next {
+.page-archive .categories a {
 }

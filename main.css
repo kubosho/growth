@@ -7,20 +7,25 @@
   Responsive: yes
  */
 
-@import "./src/about-page.css";
-@import "./src/archive-page.css";
+/* Global */
+@import "./src/elements.css";
+@import "./src/global.css";
+@import "./src/container.css";
+
+/* Components */
 @import "./src/breadcrumb.css";
 @import "./src/button.css";
 @import "./src/category.css";
 @import "./src/column.css";
 @import "./src/comment.css";
-@import "./src/container.css";
 @import "./src/date.css";
-@import "./src/elements.css";
-@import "./src/entry-content.css";
-@import "./src/entry-footer.css";
-@import "./src/entry-header.css";
-@import "./src/entry.css";
-@import "./src/global.css";
 @import "./src/modules.css";
 @import "./src/pager.css";
+
+/* Single pages */
+@import "./src/entry.css";
+@import "./src/entry-header.css";
+@import "./src/entry-content.css";
+@import "./src/entry-footer.css";
+@import "./src/about-page.css";
+@import "./src/archive-page.css";
