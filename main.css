@@ -8,28 +8,28 @@
  */
 
 /* Reset */
-@import "./src/reset.css";
-@import "./src/reset-opinionated.css";
+@import "./src/reset/reset.css";
+@import "./src/reset/reset-opinionated.css";
 
 /* Global */
-@import "./src/elements.css";
-@import "./src/global.css";
-@import "./src/container.css";
+@import "./src/global/elements.css";
+@import "./src/global/global.css";
+@import "./src/global/container.css";
 
 /* Components */
-@import "./src/breadcrumb.css";
-@import "./src/button.css";
-@import "./src/category.css";
-@import "./src/column.css";
-@import "./src/comment.css";
-@import "./src/date.css";
-@import "./src/modules.css";
-@import "./src/pager.css";
+@import "./src/components/breadcrumb.css";
+@import "./src/components/button.css";
+@import "./src/components/category.css";
+@import "./src/components/column.css";
+@import "./src/components/comment.css";
+@import "./src/components/date.css";
+@import "./src/components/modules.css";
+@import "./src/components/pager.css";
 
 /* Single pages */
-@import "./src/entry.css";
-@import "./src/entry-header.css";
-@import "./src/entry-content.css";
-@import "./src/entry-footer.css";
-@import "./src/about-page.css";
-@import "./src/archive-page.css";
+@import "./src/pages/entry.css";
+@import "./src/pages/entry-header.css";
+@import "./src/pages/entry-content.css";
+@import "./src/pages/entry-footer.css";
+@import "./src/pages/about-page.css";
+@import "./src/pages/archive-page.css";
