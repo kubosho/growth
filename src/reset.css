@@ -1,0 +1,6 @@
+/**
+ * Prevent font size adjustments after orientation changes in iOS.
+ */
+html {
+  -webkit-text-size-adjust: 100%;
+}

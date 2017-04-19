@@ -1,0 +1,17 @@
+/**
+ * Add border box sizing in all browsers.
+ */
+html {
+  box-sizing: border-box;
+}
+
+/**
+ * 1. Add box sizing inheritence in all browsers
+ * 2. Remove repeating backgrounds in all browsers
+ */
+*,
+::before,
+::after {
+  box-sizing: inherit; /* 1 */
+  background-repeat: no-repeat; /* 2 */
+}

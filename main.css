@@ -7,6 +7,10 @@
   Responsive: yes
  */
 
+/* Reset */
+@import "./src/reset.css";
+@import "./src/reset-opinionated.css";
+
 /* Global */
 @import "./src/elements.css";
 @import "./src/global.css";
