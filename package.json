@@ -4,7 +4,7 @@
   "description": "",
   "main": "main.css",
   "scripts": {
-    "build": "./build.js",
+    "build": "./bin/build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

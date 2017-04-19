@@ -4,8 +4,9 @@ const fs = require("fs")
 const postcss = require("postcss")
 const atImport = require("postcss-import")
 
-const inputFile = "main.css"
-const outputFile = "dist/main.css"
+const cwd = process.cwd()
+const inputFile = `${cwd}/main.css`
+const outputFile = `${cwd}/dist/main.css`
 const css = fs.readFileSync(inputFile, "utf8")
 
 postcss()
