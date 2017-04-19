@@ -3,8 +3,9 @@
 const fs = require("fs")
 const postcss = require("postcss")
 const atImport = require("postcss-import")
-const comments = require("postcss-discard-comments");
-const stylefmt = require("stylefmt");
+const comments = require("postcss-discard-comments")
+const selector = require('postcss-custom-selectors')
+const stylefmt = require("stylefmt")
 
 const cwd = process.cwd()
 const inputFile = `${cwd}/main.css`
@@ -16,6 +17,7 @@ const css = fs.readFileSync(inputFile, "utf8")
 postcss()
   .use(atImport())
   .use(comments())
+  .use(selector())
   .use(stylefmt())
   .process(css, { from: inputFile })
   .then((result) => {
