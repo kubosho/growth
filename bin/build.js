@@ -8,7 +8,9 @@ const stylefmt = require("stylefmt");
 
 const cwd = process.cwd()
 const inputFile = `${cwd}/main.css`
-const outputFile = `${cwd}/dist/main.css`
+const outputDir = `${cwd}/dist`
+const outputFile = `${outputDir}/main.css`
+
 const css = fs.readFileSync(inputFile, "utf8")
 
 postcss()
@@ -17,5 +19,7 @@ postcss()
   .use(stylefmt())
   .process(css, { from: inputFile })
   .then((result) => {
-    fs.writeFileSync(outputFile, result.css)
+    fs.mkdir(outputDir, () => {
+      fs.writeFileSync(outputFile, result.css)
+    })
   })
