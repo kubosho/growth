@@ -5,6 +5,7 @@
   "main": "main.css",
   "scripts": {
     "build": "./bin/build.js",
+    "watch": "watch ./bin/build.js src/",
     "test": "stylelint **/*.css"
   },
   "repository": {
@@ -26,6 +27,7 @@
     "postcss-stylestats": "^1.0.0",
     "stylefmt": "^5.3.2",
     "stylelint": "^7.10.1",
-    "stylelint-config-standard": "^16.0.0"
+    "stylelint-config-standard": "^16.0.0",
+    "watch": "^1.0.2"
   }
 }
