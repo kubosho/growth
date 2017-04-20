@@ -1,3 +1,6 @@
+#container {
+}
+
 /* ヘッダ（グローバルヘッダ）
   グローバルヘッダの中はiframeですが、
   #globalheader-container に背景色や文字色を指定することでiframeの中にも色が反映されます。

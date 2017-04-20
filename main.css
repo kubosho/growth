@@ -14,7 +14,6 @@
 /* Global */
 @import "./src/global/elements.css";
 @import "./src/global/global.css";
-@import "./src/global/container.css";
 
 /* Components */
 @import "./src/components/breadcrumb.css";
