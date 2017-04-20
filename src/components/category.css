@@ -4,5 +4,9 @@
 .categories a {
 }
 
+.categories a::before {
+  content: "#";
+}
+
 .categories.no-categories {
 }
