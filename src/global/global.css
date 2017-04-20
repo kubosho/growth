@@ -8,6 +8,12 @@
 #globalheader-container {
 }
 
+#blog-title-inner {
+  width: 98vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
 #blog-title {
 }
 #title {
@@ -21,6 +27,19 @@
 }
 .header-image-enable #title,
 .header-image-enable #blog-description {
+}
+
+/* content */
+#content {
+  width: 98vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#content::after {
+}
+
+.globalheader-off #container {
 }
 
 /* sidebar */
@@ -41,4 +60,10 @@
 #footer p {
 }
 #footer a {
+}
+
+#footer-inner {
+  width: 98vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
