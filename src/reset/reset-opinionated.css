@@ -15,3 +15,10 @@ html {
   box-sizing: inherit; /* 1 */
   background-repeat: no-repeat; /* 2 */
 }
+
+/**
+ * Prevent horizontal scroll in mobile browsers
+ */
+img {
+  max-width: 100%;
+}
