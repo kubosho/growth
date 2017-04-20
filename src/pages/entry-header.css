@@ -2,6 +2,7 @@
 }
 
 .entry-title {
+  margin: var(--space) 0;
 }
 
 /* 「編集する」ボタン */
