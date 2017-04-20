@@ -8,20 +8,6 @@
 #globalheader-container {
 }
 
-#blog-title-inner {
-  width: 98vw;
-  max-width: 1200px;
-  margin: 0 auto;
-}
-
-#blog-title {
-}
-#title {
-}
-#title a {
-}
-#blog-description {
-}
 /* ヘッダ画像を設定したとき */
 .header-image-enable #title {
 }

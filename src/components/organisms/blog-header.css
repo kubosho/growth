@@ -1,0 +1,41 @@
+#blog-title {
+  background-color: var(--main-color);
+  color: var(--dbg-text-color);
+}
+
+#blog-title h1,
+#blog-title h2 {
+  margin: 0;
+}
+
+#blog-title h1 {
+  padding: 2vw 2vw 2vw 0;
+  font-size: calc(var(--font-size) * 1.5);
+}
+
+#blog-title h1 a {
+  color: var(--dbg-text-color);
+}
+
+#blog-title h2 {
+  font-size: calc(var(--font-size));
+  font-weight: normal;
+}
+
+#blog-title-inner {
+  width: 98vw;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+#blog-title-content {
+  padding-bottom: 2vw;
+}
+
+@media screen and (min-width: 1024px) {
+  #blog-title-content {
+    display: flex;
+    align-items: center;
+    padding-bottom: 0;
+  }
+}
