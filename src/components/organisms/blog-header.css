@@ -1,6 +1,5 @@
 #blog-title {
-  background-color: var(--main-color);
-  color: var(--dbg-text-color);
+  text-align: center;
 }
 
 #blog-title h1,
@@ -9,33 +8,22 @@
 }
 
 #blog-title h1 {
-  padding: 2vw 2vw 2vw 0;
-  font-size: calc(var(--font-size) * 1.5);
-}
-
-#blog-title h1 a {
-  color: var(--dbg-text-color);
+  padding: 2vw 0 var(--space);
+  font-size: calc(var(--font-size) * 2);
 }
 
 #blog-title h2 {
-  font-size: calc(var(--font-size));
+  font-size: calc(var(--font-size) * 0.75);
   font-weight: normal;
 }
 
 #blog-title-inner {
   width: 98vw;
   max-width: 1200px;
+  border-bottom: 1px solid var(--main-color);
   margin: 0 auto;
 }
 
 #blog-title-content {
   padding-bottom: 2vw;
-}
-
-@media screen and (min-width: 1024px) {
-  #blog-title-content {
-    display: flex;
-    align-items: center;
-    padding-bottom: 0;
-  }
 }
