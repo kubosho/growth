@@ -17,6 +17,7 @@
 
 /* Components */
 @import "./src/components/organisms/blog-aside.css";
+@import "./src/components/organisms/blog-footer.css";
 @import "./src/components/organisms/blog-header.css";
 @import "./src/components/organisms/entry-header.css";
 @import "./src/components/breadcrumb.css";
