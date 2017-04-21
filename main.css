@@ -17,6 +17,7 @@
 
 /* Components */
 @import "./src/components/organisms/blog-header.css";
+@import "./src/components/organisms/entry-header.css";
 @import "./src/components/breadcrumb.css";
 @import "./src/components/button.css";
 @import "./src/components/category.css";
@@ -28,7 +29,6 @@
 
 /* Single pages */
 @import "./src/pages/entry.css";
-@import "./src/pages/entry-header.css";
 @import "./src/pages/entry-content.css";
 @import "./src/pages/entry-footer.css";
 @import "./src/pages/about-page.css";
