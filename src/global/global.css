@@ -1,31 +1,73 @@
 @import "./var.css";
 
-#container {
+/**
+ * header
+ */
+#blog-title {
+  text-align: center;
 }
 
-/* ヘッダ（グローバルヘッダ）
-  グローバルヘッダの中はiframeですが、
-  #globalheader-container に背景色や文字色を指定することでiframeの中にも色が反映されます。
-*/
-#globalheader-container {
+#blog-title h1,
+#blog-title h2 {
+  margin: 0;
 }
 
-/* ヘッダ画像を設定したとき */
-.header-image-enable #title {
-}
-.header-image-enable #title,
-.header-image-enable #blog-description {
+#blog-title h1 {
+  padding: 2vw 0 var(--space);
+  font-size: calc(var(--font-size) * 2);
 }
 
-/* content */
+#blog-title h2 {
+  font-size: calc(var(--font-size) * 0.75);
+  font-weight: normal;
+}
+
+#blog-title-inner {
+  width: 98vw;
+  max-width: 1200px;
+  border-bottom: 1px solid var(--main-color);
+  margin: 0 auto;
+}
+
+#blog-title-content {
+  padding-bottom: 2vw;
+}
+
+/**
+ * content
+ */
 #content {
   width: 98vw;
   max-width: 1200px;
   margin: 0 auto;
 }
 
-#content::after {
+/**
+ * aside
+ */
+@media (min-width: 768px) {
+  #box2-inner {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+  }
 }
 
-.globalheader-off #container {
+/**
+ * footer
+ */
+#footer {
+  padding: 2vw 0;
+  background-color: var(--main-color);
+}
+
+#footer a,
+#footer p {
+  margin: 0;
+  color: var(--dbg-text-color);
+}
+
+#footer-inner {
+  width: 98vw;
+  max-width: 1200px;
+  margin: 0 auto;
 }
