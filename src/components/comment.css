@@ -1,35 +1,25 @@
+.comment-box {
+  margin-top: 5vh;
+}
+
+.comment-box p {
+  margin: 0;
+}
+
 .comment-box ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
-.comment-box li {
+.entry-comment {
+  margin-top: 5vh;
 }
 
-.comment-box li:first-child {
-}
-
-.comment-box .read-more-comments {
-}
-
-.comment-box .hatena-id-icon {
-}
-
-.comment-user-name {
-}
-
-.comment-content {
+.entry-comment:first-child {
+  margin-top: 0;
 }
 
 .comment-content p {
-}
-
-.comment-metadata {
-}
-
-.comment-metadata a {
-}
-
-.leave-comment-title {
-}
-
-.leave-comment-title:hover {
+  margin: 1vh 0;
 }
