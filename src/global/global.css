@@ -48,7 +48,24 @@
 @media (min-width: 768px) {
   #box2-inner {
     display: grid;
-    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-template-columns: 30% 5% 30% 5% 30%;
+    grid-template-rows: 45% 10% 45%;
+  }
+
+  .hatena-module:first-child {
+    grid-column: 1 / 2;
+  }
+
+  .hatena-module:nth-child(3n+2) {
+    grid-column: 3 / 4;
+  }
+
+  .hatena-module:nth-child(3n+3) {
+    grid-column: 5 / 6;
+  }
+
+  .hatena-module:nth-child(n+4) {
+    grid-row-start: 3;
   }
 }
 
