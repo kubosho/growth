@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/kubosho/hatenablog-theme#readme",
   "devDependencies": {
+    "autoprefixer": "^6.7.7",
     "postcss": "^5.2.17",
     "postcss-custom-selectors": "^3.0.0",
     "postcss-discard-comments": "^2.0.4",
