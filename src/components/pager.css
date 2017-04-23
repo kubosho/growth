@@ -1,11 +1,12 @@
 .pager {
-}
-
-.pager::after {
+  margin: 7vh auto;
+  text-align: center;
 }
 
 .pager .pager-prev {
+  content: "<";
 }
 
-.pager .pager-next {
+.pager .pager-next::after {
+  content: ">";
 }
