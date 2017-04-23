@@ -1,3 +1,12 @@
+@import "../global/var.css";
+
 .entry {
-  margin: 7.5vh 2vw;
+  margin: 7vh 2vw;
+}
+
+.entry-content pre {
+  padding: var(--space);
+  border: 1px solid var(--border-color);
+  background-color: var(--dbg-bg-color);
+  color: var(--dbg-text-color);
 }
