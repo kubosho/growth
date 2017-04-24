@@ -1,12 +1,18 @@
 .pager {
   margin: 7vh auto;
-  text-align: center;
 }
 
-.pager .pager-prev {
-  content: "<";
-}
+@media (min-width: 768px) {
+  .pager {
+    display: flex;
+    justify-content: center;
+  }
 
-.pager .pager-next::after {
-  content: ">";
+  .pager > *:first-child {
+    margin-right: 2vw;
+  }
+
+  .pager > *:only-child {
+    margin: 0;
+  }
 }
