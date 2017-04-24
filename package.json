@@ -1,7 +1,7 @@
 {
-  "name": "hatenablog-theme",
+  "name": "hatenablog-theme-growth",
   "version": "1.0.0",
-  "description": "",
+  "description": "Growth is Hatena blog theme.",
   "main": "main.css",
   "scripts": {
     "build": "./bin/build.js",
@@ -12,9 +12,13 @@
     "type": "git",
     "url": "git+ssh://git@github.com/kubosho/hatenablog-theme.git"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "hatena",
+    "blog",
+    "theme"
+  ],
+  "author": "kubosho",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/kubosho/hatenablog-theme/issues"
   },
