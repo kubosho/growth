@@ -42,6 +42,11 @@
   margin: 0 auto;
 }
 
+.entry,
+.archive-entry {
+  margin: 7vh 2vw;
+}
+
 /**
  * aside
  */

@@ -11,9 +11,9 @@
 @import "./src/reset/reset.css";
 @import "./src/reset/reset-opinionated.css";
 
-/* Global */
-@import "./src/global/elements.css";
-@import "./src/global/global.css";
+/* Commons */
+@import "./src/commons/element.css";
+@import "./src/commons/global.css";
 
 /* Components */
 @import "./src/components/entry-header.css";
