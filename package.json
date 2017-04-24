@@ -6,7 +6,7 @@
   "scripts": {
     "build": "./bin/build.js",
     "watch": "watch ./bin/build.js src/",
-    "test": "stylelint **/*.css"
+    "test": "stylelint src/**/*.css"
   },
   "repository": {
     "type": "git",
