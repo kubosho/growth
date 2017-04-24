@@ -1,0 +1,6 @@
+.entry-content pre {
+  padding: var(--space);
+  border: 1px solid var(--border-color);
+  background-color: var(--dbg-bg-color);
+  color: var(--dbg-text-color);
+}
