@@ -1,18 +1,33 @@
+@import "../commons/var.css";
+
 .pager {
+  display: table;
   margin: 7vh auto;
+  text-align: center;
 }
 
-@media (min-width: 768px) {
-  .pager {
-    display: flex;
-    justify-content: center;
-  }
+.pager > * {
+  display: table-cell;
+  width: 50%;
+  border: 1px solid var(--border-color);
+  background-color: #fff;
+  vertical-align: middle;
+}
 
-  .pager > *:first-child {
-    margin-right: 2vw;
-  }
+.pager > * a {
+  display: block;
+  padding: 1vw;
+  text-decoration: none;
+}
 
-  .pager > *:only-child {
-    margin: 0;
-  }
+.pager > * a:hover {
+  background-color: var(--bg-color);
+}
+
+.pager > *:first-child {
+  border-right: 0;
+}
+
+.pager > *:only-child {
+  border-right: 1px solid var(--border-color);
 }
