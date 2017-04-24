@@ -21,7 +21,3 @@
 @import "./src/components/category.css";
 @import "./src/components/comment.css";
 @import "./src/components/pager.css";
-
-/* Single pages */
-@import "./src/pages/entry.css";
-@import "./src/pages/archive-page.css";
