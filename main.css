@@ -7,9 +7,9 @@
   Responsive: yes
  */
 
-/* Reset */
-@import "./src/reset/reset.css";
-@import "./src/reset/reset-opinionated.css";
+/* Resets */
+@import "./src/resets/reset.css";
+@import "./src/resets/reset-opinionated.css";
 
 /* Commons */
 @import "./src/commons/element.css";
