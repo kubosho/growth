@@ -20,6 +20,7 @@
 @import "./src/components/entry-header.css";
 @import "./src/components/entry-content.css";
 @import "./src/components/social-button.css";
+@import "./src/components/breadcrumb.css";
 @import "./src/components/button.css";
 @import "./src/components/category.css";
 @import "./src/components/comment.css";
