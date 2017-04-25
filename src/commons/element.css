@@ -27,6 +27,7 @@ hr {
   width: 50vw;
   border-color: var(--main-color);
   border-style: dashed;
+  margin: 2vh auto;
 }
 
 th,
