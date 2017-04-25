@@ -14,6 +14,7 @@
 /* Commons */
 @import "./src/commons/element.css";
 @import "./src/commons/global.css";
+@import "./src/commons/module.css";
 
 /* Components */
 @import "./src/components/entry-header.css";

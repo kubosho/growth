@@ -1,0 +1,19 @@
+@import "./var.css";
+
+.hatena-module {
+  margin-bottom: 2vh;
+}
+
+@media (min-width: 768px) {
+  .hatena-module {
+    margin-bottom: 0;
+  }
+}
+
+.hatena-module-title a {
+  color: var(--text-color);
+}
+
+.hatena-urllist {
+  margin: 0;
+}
