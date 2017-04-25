@@ -17,7 +17,6 @@
 .pager > * a {
   display: block;
   padding: 1vw;
-  text-decoration: none;
 }
 
 .pager > * a:hover {

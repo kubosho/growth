@@ -10,6 +10,28 @@ body {
 
 a {
   color: var(--link-color);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  padding-left: 1vw;
+  border-left: 2px solid var(--main-color);
+  margin-left: 1vw;
+}
+
+hr {
+  width: 50vw;
+  border-color: var(--main-color);
+  border-style: dashed;
+}
+
+th,
+td {
+  border: 1px solid var(--main-color);
 }
 
 :--heading a {
