@@ -22,3 +22,11 @@ html {
 img {
   max-width: 100%;
 }
+
+/**
+ * Collapse border spacing
+ */
+
+table {
+  border-collapse: collapse;
+}
