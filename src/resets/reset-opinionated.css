@@ -1,5 +1,5 @@
 /**
- * Add border box sizing in all browsers.
+ * Add border box sizing in all browsers
  */
 html {
   box-sizing: border-box;
@@ -26,7 +26,6 @@ img {
 /**
  * Collapse border spacing
  */
-
 table {
   border-collapse: collapse;
 }
