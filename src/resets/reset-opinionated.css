@@ -6,6 +6,13 @@ html {
 }
 
 /**
+ * Remove margin in all browsers
+ */
+body {
+  margin: 0;
+}
+
+/**
  * 1. Add box sizing inheritence in all browsers
  * 2. Remove repeating backgrounds in all browsers
  */
