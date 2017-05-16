@@ -1,0 +1,7 @@
+<body>
+  <main>
+    {{ range first 10 .Data.Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </main>
+</body>
