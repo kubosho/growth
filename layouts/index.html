@@ -1,5 +1,11 @@
 <!DOCTYPE html>
 <html>
 {{ partial "head.html" . }}
-{{ partial "body.html" . }}
+<body>
+  <main>
+    {{ range where .Data.Pages "Section" "post" }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </main>
+</body>
 </html>
