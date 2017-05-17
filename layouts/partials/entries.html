@@ -1,0 +1,13 @@
+{{ range where .Data.Pages "Section" "entry" }}
+  <div>
+    <span>
+      {{ .Date.Format "2006/01/02" }}
+    </span>
+
+    <h1>
+      <a href="{{ .Permalink }}">
+        {{ .Title }}
+      </a>
+    </h1>
+  </div>
+{{ end }}
